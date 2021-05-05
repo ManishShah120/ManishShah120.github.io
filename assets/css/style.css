@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+canvas {
+    display: block;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 41px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.9;
+}
+
+/* Set a specific color for each brand */
+
+/* Github */
+.fa-github {
+    color: white;
+}
+.fa-github:hover {
+    color: #4078c0;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    color: white;
+}
+.fa-linkedin:hover {
+    color: #0e76a8;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+}
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+/* Medium */
+.fa-medium {
+    color: white;
+}
+.fa-medium:hover {
+    color: black;
+}
+
+/* Mail */
+.fa-envelope {
+    /* background: white; */
+    color: white;
+}
+.fa-envelope:hover {
+    color: darkred;
+}
+
+/* Kaggle */
+.fa-kaggle {
+    /* background: white; */
+    color: white;
+}
+.fa-kaggle:hover {
+    color: #20beff;
+}
+
+ul.social-media-icons {
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-media-icons li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+div.socialicon {
+    position: fixed;
+    margin: auto;
+    width: 40%;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
