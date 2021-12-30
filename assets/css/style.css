@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+/*     padding: 0; */
 }
 
 html, body {
@@ -84,7 +84,7 @@ html, body {
 
 ul.social-media-icons {
     margin: 0;
-    padding: 0;
+/*     padding: 0; */
 }
 
 ul.social-media-icons li {
